@@ -1,6 +1,5 @@
 # potree_app
 This app will build a potree octree from las, laz, binary ply, xyz or ptx files. This app uses open source [Potree Converter](https://github.com/potree/PotreeConverter/tree/using_laszip) along with the [Potree web renderer](https://github.com/potree/potree).
-The pre-built image can be downloaded [here](https://console.cloud.google.com/gcr/images/ml-datalab-datatools-01-pr/GLOBAL/potcon?project=ml-datalab-datatools-01-pr&organizationId=846774596521&gcrImageListsize=30), if using the image, start from step 2 below, otherwise start with step 1.
 ## To use this image:
 ###### 1. `./build.sh` to create new image with the latest code after pulling this repo
 ###### 2. `./start.sh -i /path/to/input/folder -o /path/to/output/folder` note: folders must be given as in and out paths
