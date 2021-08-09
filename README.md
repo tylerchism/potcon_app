@@ -1,5 +1,5 @@
 # potree_app
-This app will build a potree octree from las, laz, binary ply, xyz or ptx files. This app uses open source [Potree Converter](https://github.com/potree/PotreeConverter/tree/using_laszip) along with the [Potree web renderer](https://github.com/potree/potree).
+This app will build a potree octree from las, laz, binary ply, xyz or ptx files (right now only ply file conversion is supported for this app). This app uses open source [Potree Converter](https://github.com/potree/PotreeConverter/tree/using_laszip) along with the [Potree web renderer](https://github.com/potree/potree).
 ## To use this image:
 ###### 1. `./build.sh` to create new image with the latest code after pulling this repo
 ###### 2. `./start.sh -i /path/to/input/folder -o /path/to/output/folder` note: folders must be given as in and out paths
